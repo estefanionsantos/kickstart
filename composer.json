@@ -1,0 +1,17 @@
+{
+    "name"        : "rubricate/startkick",
+    "description" : "start Kick for RubricatePHP MVC",
+    "homepage"    : "http://rubricate.github.io",
+    "license"     : "MIT",
+    "type"        : "project",
+
+    "require"       : {
+        "php"           : ">=5.3.0",
+        "rubricate/mvc" : "^0.1"
+    },
+    "autoload" : {
+        "psr-4"    : {
+            "App\\"    : "app/"
+        }
+    }
+}
