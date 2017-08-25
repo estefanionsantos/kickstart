@@ -10,8 +10,8 @@ class Error404
 
     public function index()
     {
-        $view = new View\LoadView('error404');
-        $view->render();
+        $view = new View\PresentationView();
+        $view->render('error404');
     } 
 
 }

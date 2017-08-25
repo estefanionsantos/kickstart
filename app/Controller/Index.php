@@ -12,8 +12,8 @@ class Index
 
     public function index()
     {
-        $view = new View\LoadView('index');
-        $view->render();
+        $view = new View\PresentationView();
+        $view->render('index');
     } 
 
 }
