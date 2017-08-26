@@ -6,6 +6,9 @@ require '../vendor/autoload.php';
 
 
 
-$app = new Rubricate\Kernel\ApplicationKernel('App.Controller');
+$app = new Rubricate\Kernel\ApplicationKernel(
+       new Rubricate\Kernel\ControllerNamespaceKernel('App.Controller')
+);
+
 $app->run();
 
