@@ -3,7 +3,7 @@
 
 namespace App\Controller;
 
-use Rubricate\View;
+use Rubricate\View\View;
 
 class Index
 {
@@ -12,7 +12,7 @@ class Index
 
     public function index()
     {
-        $view = new View\PresentationView();
+        $view = new View();
         $view->render('index');
     } 
 
