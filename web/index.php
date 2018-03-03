@@ -7,7 +7,7 @@ require '../vendor/autoload.php';
 
 
 $app = new Rubricate\Init\ApplicationInit(
-       new Rubricate\Init\ControllerNamespaceInit('App.Controller')
+    new Rubricate\Init\ControllerNamespaceInit('App.Controller')
 );
 
 $app->run();
