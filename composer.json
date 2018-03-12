@@ -7,7 +7,7 @@
 
     "require"       : {
         "php"           : ">=5.3.0",
-        "rubricate/init" : "^1.5",
+        "rubricate/relevant" : "^1.7",
         "rubricate/view" : "^2.3"
     },
     "autoload" : {
