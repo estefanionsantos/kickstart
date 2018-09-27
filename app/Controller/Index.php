@@ -3,7 +3,8 @@
 
 namespace App\Controller;
 
-use Rubricate\View\View;
+use Rubricate\View\RenderView;
+use Rubricate\View\PathRenderView;
 
 class Index
 {
@@ -13,7 +14,8 @@ class Index
 
     public function index()
     {
-        $view = new View();
+        $path = new PathRenderView(PATH_VIEW);
+        $view = new RenderView($path);
         $view->render('index');
     } 
 

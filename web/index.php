@@ -1,6 +1,6 @@
 <?php
 
-define('RUBRICATE_PATH_VIEW', '../app/view/');
+define('PATH_VIEW', '../app/view/');
 
 require '../vendor/autoload.php';
 
