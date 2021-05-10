@@ -1,19 +1,16 @@
-# RubricatePHP Start Kick
-Folder suggestion
+# Start Kick
+Is a kick-off repository for starting a project using [RubricatePHP](http://rubricate.github.io) and [DobokCSS](http://dobokcss.github.io)
 
-## Installation
+## Clone
 ```
-$ git clone https://github.com/rubricate/startkick.git dir_project
-$ cd dir_project
+$ git clone https://github.com/estefanions/startkick.git projectname
+$ cd projectname
 $ composer install
-```
-or:
-## Installation 2:
-```
-$ composer create-project rubricate/startkick dir_project 
+
 ```
 ## In the browser: 
 ```
-localhost/dir_project/web
+localhost/projectname/web
+
 ```
 
