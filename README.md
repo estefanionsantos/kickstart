@@ -3,7 +3,7 @@ Is a kick-off repository for starting a project using [RubricatePHP](http://rubr
 
 ## Clone
 ```
-$ git clone https://github.com/estefanions/startkick.git projectname
+$ git clone https://github.com/estefanions/kickstart.git projectname
 $ cd projectname
 $ composer install
 
