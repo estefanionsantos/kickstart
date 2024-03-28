@@ -1,4 +1,4 @@
-# Start Kick
+# Kick Start
 Is a kick-off repository for starting a project using [RubricatePHP](http://rubricate.github.io) and [DobokCSS](http://dobokcss.github.io)
 
 ## Clone
